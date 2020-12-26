@@ -1,0 +1,13 @@
+const Discord = require('discord.js');
+
+const client = new Discord.Client();
+
+client.once('ready', ()=> {
+    console.log('mBot testing is online');
+    client.user.setStatus('available');
+    client.user.setActivity("with depression", {
+        type: "STREAMING",
+        url: "https://www.youtube.com/watch?v=j_sD9udZnCk"
+      });
+});
+client.login('no');
