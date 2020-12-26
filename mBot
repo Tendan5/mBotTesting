@@ -7,7 +7,7 @@ client.once('ready', ()=> {
     client.user.setStatus('available');
     client.user.setActivity("with depression", {
         type: "STREAMING",
-        url: "https://www.youtube.com/watch?v=j_sD9udZnCk"
+        url: "https://github.com/mBotCode/mBotTesting/tree/main"
       });
-});
-client.login('no');
+});k
+client.login(REDACTED);
